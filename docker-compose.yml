@@ -1,0 +1,8 @@
+version: "3"
+services:
+  tle:
+    build: .
+    stdin_open: true
+    network_mode: "host"
+    volumes:
+      - "/TLE:/TLE"  
